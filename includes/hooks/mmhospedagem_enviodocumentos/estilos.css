@@ -1,0 +1,135 @@
+.caixa-documentos {
+	overflow: hidden;
+}
+
+.caixa-documentos .envio-de-documentos { width: 31%; float: left; padding: 10px 10px 0px; }
+.caixa-documentos .envio-de-documentos input[type='file'] {
+  display: none
+}
+.caixa-documentos .envio-de-documentos label {
+	width: 77px;
+	height: 68px;
+	cursor: pointer;
+}
+
+.caixa-documentos .envio-de-documentos .frente-rg {
+	background-image: url('frente-rg-enable.png');
+}
+.caixa-documentos .envio-de-documentos .verso-rg {
+	background-image: url('verso-rg-enable.png');
+}
+.caixa-documentos .envio-de-documentos .comprovante {
+	background-image: url('comprovante-enable.png');
+}
+
+.caixa-documentos .inputs {
+	float: left;
+    width: 69%;
+    margin-top: 9px;
+}
+.caixa-documentos .inputs p {
+	margin: 0px 0px 6px;
+	font-size: 12px;
+}
+.caixa-documentos .inputs input[type="text"] {
+	border-radius: 2px;
+}
+
+
+.error-status-mm-documento {
+	background-color: #FF9191;
+    border-left: 3px solid #FF4D4D;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.error-status-mm-documento h4 {
+    font-size: 12px;
+    padding-left: 13px;
+}
+
+.error-status-mm-documento h4 i {
+	font-size: 24px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.sucesso-status-mm-documento {
+	background-color: #74C274;
+    border-left: 3px solid #5CB85C;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.sucesso-status-mm-documento h4 {
+    font-size: 12px;
+    padding-left: 13px;
+}
+
+.sucesso-status-mm-documento h4 i {
+	font-size: 24px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.emanalise-status-mm-documento {
+	background-color: #F0AD4E;
+    border-left: 3px solid #EE9D31;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.emanalise-status-mm-documento h4 {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.emanalise-status-mm-documento h4 i {
+	font-size: 44px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+
+
+.negado-status-mm-documento {
+	background-color: #F0AD4E;
+    border-left: 3px solid #EE9D31;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-right: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.negado-status-mm-documento h4 {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.negado-status-mm-documento h4 i {
+	font-size: 44px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -3px;
+}
